@@ -1,0 +1,7 @@
+# latex
+**/*.aux
+**/*.log
+**/*.out
+
+# reavel.js
+slides/core

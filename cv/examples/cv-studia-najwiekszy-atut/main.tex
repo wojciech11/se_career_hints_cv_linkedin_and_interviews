@@ -1,0 +1,134 @@
+\documentclass[11pt,a4paper]{moderncv}
+\usepackage{MnSymbol}
+\moderncvtheme[blue]{classic}                % idem
+%
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage[T1]{fontenc}
+%
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{8cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+\usepackage{eurosym}
+%
+% personal data
+\firstname{Michał}
+\familyname{Octodex}
+\title{Mgr. inż.}               % optional, remove the line if not wanted
+\address{Wrocław, Polska}{}    % optional, remove the line if not wanted
+\mobile{+48 XXX XXX XXX}                    % optional, remove the line if not wanted
+%\phone{phone (optional)}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{xxxx @ gmail.com}                      % optional, remove the line if not wanted
+\homepage{xxxx.pl}                % optional, remove the line if not wanted
+\extrainfo{\url{github.com/mkowalski2}\\\url{linkedin.com/pl/mkowalski}} % optional, remove the line if not wanted
+\photo[64pt]{myphoto}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Experience in XYZ installations\\ and Software Craftsmanship}% optional, remove the line if not wanted
+%
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+%
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+%
+\section{Wykształcenie}%
+\cventry{10.2016--...}{Tester oprogramowania dla aplikacji mobilnych i serwerowych}{Podyplomowe}{Wyższa Szkoła Bankowa}{Wrocław}{%
+Osiągnięcia w ramach zajęć (część kodu na koncie github-a):
+\begin{itemize}%
+  \item XX godzin programowania w Pythonie (biblioteki: Selenium, Robot, Paramiko; środowisko: CentOS);%
+  \item Implementacja dwóch procesu ciągłej integracji i deploymentu z użyciem TravisCI (Git, Python + flask, Docker jako format pakietu, deployment do Heroku i Dockerhub, monitoring z statuscake.com);%
+  \item Budowa automatyzacji w oparciu o Jenkins 2.0;%
+  \item Poznanie kultury DevOps, TestDriven Development, Infrastructure-as-a-Code;%
+  \item Zdany certyfikat XYAA;%
+  \item Praca końcowa na temat ABBBCCCSDDDDDD.%
+\end{itemize}%
+Praca w domu/{\small KATA}s: \begin{itemize}%
+\item Rozbudowanie procesu ciągłego deploymentu o testy z użyciem robotframework;%
+\item Rozbudowanie process ciągłego deploymentu o integrację ze Slackiem.%
+\end{itemize}}
+%
+\cventry{2011--2014}{Elektrotechnika}{magisterskie}{Politechnika Wrocławska}{Wrocław}{%
+Ważniejsze projekty (średnia ocen 4.3, Jeśli dobra:) ):%
+\begin{itemize}%
+  \item Programowanie kontrolerów XYZ%
+  \item Projekt SZ%
+\end{itemize}}%
+
+\cventry{2006--2011}{Elektrotechnika}{inżynier}{Politechnika Wrocławska}{Wrocław}{%
+specjalność: elektrotechnika przemysłowa i komunalna, inżynier elektryk}
+%
+\section{Doświadczenie}%
+\cventry{09.2016--...}{Działalność na zlecenie}{}{}{}{\textbf{Osiągnięcia} / ciekawsze projekty:%
+\begin{itemize}%
+  \item Mig
+  \item Mig
+  \item Learn how make a {\small B2C} company data-driven (A/B tests, funnel analysis, etc.) business.%
+\end{itemize}
+}%
+%
+\cventry{05.2016--08.2016}{Maintenance trainee}{FAURECIA S.A. Legnica Decorationns Plant}{}{}{Zadanie opisane zorientowane na \textbf{Osiągnięcia}:%
+\begin{itemize}%
+  \item Zamówienia brakujących części i uaktualnienie dokumentacji przeglądu maszyn%
+  \item Tygodniowe raporty awarii i przestoju maszyn  i Y i Z (Excel, ..., wywiad z osobami z produkcji)%
+  \item Wykrycie sześciu problemów, których rozwiązanie skróciło zastój maszyn o 40%%
+  \item Opracowanie metodyki wskaźników awarii i przestoju magazyn, podstawa do ustandaryzowania obsług ... liczenia kosztów.. strat%
+  \item Prezentowanie wyników z kontroli w ramach spotkań UR (co to znaczy?)
+\end{itemize}
+}%
+%
+\section{Umiejętności}%
+\cvline{Progra\\mowanie}{Python (robot, flask, selenium)}%
+\cvline{Platforms}{{\small OS}: Linux, Windows, Docker}%
+\cvline{Software Engineering}{Git/Github, Jenkins, TravisCI, Makefile, lintery (flake8)}%
+\cvline{}{Umiejętności Analityczne i Analizy Danych, Prezentacje Publiczne, Przygotowanie Dokumentacji}%
+\cvline{Elektr.}{XXYA, obsługa maszyn, programowanie PLC ...}
+\cvline{}{Duże doświadczenie z pracą z urządzeniami wytwórczymi, frezarkami...}
+%
+
+\section{Szkolenia}%
+\cvline{}{Termowizja - Obsługa i wprowadzenie urządzeń termowizji firmy FLIR}%
+\cvline{}{Inteligentne Systemy Elektryczne - Konfiguracja ... i programowanie...}%
+%
+\section{Języki}
+%
+\cvlanguage{Polish}{\small Native}{}%
+\cvlanguage{English}{\small Fluent}{in speaking and writing}%
+%
+%
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem[+]{Item 3}            % optional other symbol
+%\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5 \cite{book1}}
+%\cvlistdoubleitem{Item 3}{}
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
