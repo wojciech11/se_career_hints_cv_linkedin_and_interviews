@@ -4,10 +4,15 @@ Work-in-progress/Add-as-we-go, materiały z mojego talku, będę uaktualniał po
 
 ## Junior - Mid
 
-- [slides](slides/index.pdf) ([html](slides/));
-- CV - [przykłady](cv/) i [wskazówki dotyczące cv oraz listu motywacyjnego](cv/wskazowki.md);
-- LinkedIn - [wskazówki dotyczące linkedIna](linkedIn);
-- [Coding challeges for improving dev skills](https://github.com/wojciech11/cracking_coding_challenges).
+1. Wskazówki i rekomendacje - [slides](slides/index.pdf) ([html](slides/));
+
+2. CV - [przykłady](cv/) i [wskazówki dotyczące cv oraz listu motywacyjnego](cv/wskazowki.md);
+
+3. LinkedIn - [wskazówki dotyczące linkedIna](linkedIn);
+
+4. Konto Github / Gitlab - [wskazówki](github/README.md);
+
+5. [Coding challenges for improving dev skills](https://github.com/wojciech11/cracking_coding_challenges).
 
 ## Materiały Dodatkowe
 

@@ -8,6 +8,4 @@ Checklist:
 - [ ] każda pozycja z krótkim opisem, podobne rekomendacje co z CV;
 - [ ] skills.
 
-Radziłbym raczej trzymać się języka angielskiego.
-
-Jeśli zaczynasz ze studiami jako twoim największym atutem, to TBA
+Radziłbym trzymać się języka angielskiego.
