@@ -12,7 +12,9 @@ Work-in-progress/Add-as-we-go, materiały z mojego talku, będę uaktualniał po
 
 4. Konto Github / Gitlab - [wskazówki](github/README.md);
 
-5. [Coding challenges for improving dev skills](https://github.com/wojciech11/cracking_coding_challenges).
+5. [Coding challenges for improving dev skills](https://github.com/wojciech11/cracking_coding_challenges);
+
+6. [Sciezka_rozwoju](sciezka_rozwoju/) i [podejście](misc/notes.md) - zbiór wskazówek dla nauki programowania.
 
 ## Materiały Dodatkowe
 
