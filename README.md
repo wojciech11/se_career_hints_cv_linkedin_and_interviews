@@ -18,7 +18,7 @@ Work-in-progress/Add-as-we-go, materiały z mojego talku, będę uaktualniał po
 
 ## Każdy
 
-[Notatki](misc/notes.md).
+[Notatki na różne tematy](misc/README.md).
 
 ## Materiały Dodatkowe
 
